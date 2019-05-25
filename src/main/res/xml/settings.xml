@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_title">
+        <Preference
+            android:key="goal"
+            android:title="@string/goal" />
+        <Preference
+            android:key="stepsize"
+            android:selectable="true"
+            android:title="@string/step_size" />
+
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="notification"
+            android:title="@string/notification" />
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
+
+
